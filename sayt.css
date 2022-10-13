@@ -1,0 +1,610 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.h9 {
+  width: 60%;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: #256FFF;
+  font-size: 20px;
+  letter-spacing: 5px;
+  word-spacing: 1px;
+}
+
+a:active {
+  color: white;
+}
+
+.a {
+  padding: 10px 10px 0 10px;
+  background-color: #256FFF;
+  width: 100%;
+}
+
+.a2 {
+  font-family: "Aktiv Grotesk", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: white;
+  margin-top: 20px;
+}
+
+.a2:active {
+  color: #FFA000;
+  text-shadow: 0 0 13px #FFC107;
+}
+
+.a3 {
+  height: 20px;
+  width: 20px;
+  margin-top: 25px;
+}
+
+.a4 {
+  width: 80px;
+  height: 80px;
+}
+
+.a5 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #256FFF;
+  padding: 10px;
+}
+
+.a6 {
+  width: 125px;
+  height: 80px;
+}
+
+.a9 {
+  height: 40px;
+  width: 250px;
+  border-radius: 15px;
+  font-family: "Aktiv Grotesk", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #FFC107;
+  padding: 5px;
+}
+
+.h1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.h2 {
+  width: 300px;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 100px;
+  font-family: "Aktiv Grotesk", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.h4 {
+  text-align: left;
+  font-family: "Aktiv Grotesk", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 32px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.bc {
+  background-color: #256FFF;
+  text-align: center;
+  color: white;
+  font-family: "Aktiv Grotesk", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin-bottom: 40px;
+  margin-top: 100px;
+}
+
+.h8:active {
+  background-color: rgba(37, 111, 255, 0.79);
+}
+
+.b3 {
+  background-color: white;
+  border-radius: 25px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  padding-top: 100px;
+  padding-left: 20px;
+}
+
+.bcd {
+  font-size: 32px;
+}
+
+.dsd {
+  display: flex;
+  justify-content: right;
+  margin-right: 100px;
+}
+
+.b2 {
+  height: 50px;
+  width: 250px;
+  border-radius: 15px;
+  font-family: "Aktiv Grotesk", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #FFC107;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.c2 {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.hd {
+  width: 800px;
+  font-family: "Aktiv Grotesk", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin-top: 10px;
+}
+
+.c6 {
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  border-radius: 25px;
+  background-color: aquamarine;
+  padding-top: 5px;
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+.c6:active {
+  box-shadow: 0 0 17px 10px aquamarine;
+}
+
+.g2 {
+  font-size: 40px;
+  font-family: "Aktiv Grotesk", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #FFC107;
+  margin-top: 60px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.g1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.g4 {
+  width: 400px;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.b {
+  font-family: "Aktiv Grotesk", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin-bottom: 5px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.f {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.f4 {
+  font-size: 32px;
+  font-family: "Aktiv Grotesk", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.faga {
+  display: flex;
+  justify-content: space-around;
+}
+
+.f5 {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.ha {
+  font-family: "Microsoft New Tai Lue", serif;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.as {
+  font-family: "Microsoft New Tai Lue", serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.f2 {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(255, 193, 7, 0.7);
+  padding-top: 30px;
+}
+
+.fsd {
+  display: flex;
+  flex-direction: column;
+}
+
+.hq {
+  height: 50px;
+  width: 50px;
+  margin-top: 20px;
+}
+
+.ht {
+  font-family: "Aktiv Grotesk", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: white;
+}
+
+.b7 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.b5 {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.zs {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.h5 {
+  font-size: 32px;
+  font-family: "Microsoft New Tai Lue", serif;
+  margin-bottom: 50px;
+}
+
+.h6 {
+  margin-bottom: 100px;
+}
+
+.h8 {
+  height: 40px;
+  width: 250px;
+  border: 2px solid #256FFF;
+  border-radius: 15px;
+  padding-top: 5px;
+  transition: all 0.5s;
+  margin-left: 25px;
+}
+
+.j6 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 300px;
+  padding-left: 100px;
+  padding-bottom: 100px;
+  padding-right: 100px;
+}
+
+.j3 {
+  padding: 10px;
+}
+
+.g {
+  width: 100%;
+}
+
+.h {
+  width: 100%;
+}
+
+.j4 {
+  font-size: 32px;
+  color: white;
+  font-family: "Aktiv Grotesk", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.j5 {
+  font-size: 20px;
+  color: white;
+  font-family: "Microsoft New Tai Lue", serif;
+}
+
+.k9 {
+  font-size: 20px;
+  color: white;
+  font-family: "Microsoft New Tai Lue", serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.j7 {
+  padding-top: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.j9 {
+  font-family: "Aktiv Grotesk", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 40px;
+  color: white;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.j8 {
+  background-color: #256FFF;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .j4 {
+    font-size: 25px;
+  }
+  .j5 {
+    font-size: 15px;
+    margin-top: 50px;
+  }
+  .h4 {
+    font-size: 20px;
+    width: 500px;
+  }
+  .a {
+    width: 100%;
+  }
+  .a2 {
+    font-size: 20px;
+  }
+  .a5 {
+    margin-right: 50px;
+  }
+  .hd {
+    width: 600px;
+  }
+  .c2 {
+    margin-left: 0;
+    margin-right: 200px;
+  }
+  .a {
+    height: 800px;
+  }
+  .h {
+    width: 100%;
+  }
+  .g {
+    width: 100%;
+  }
+  .f {
+    width: 100%;
+  }
+  .kq {
+    width: 100%;
+  }
+  .h9 {
+    width: 100%;
+    margin-left: 5px;
+    height: 600px;
+  }
+  .g1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .g4 {
+    width: 80%;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 50px;
+  }
+  .f4 {
+    margin-left: 50px;
+  }
+  .f5 {
+    margin-left: 50px;
+  }
+  .k9 {
+    padding-left: 30px;
+  }
+  .j6 {
+    margin-bottom: 100px;
+    margin-top: 150px;
+  }
+}
+@media (max-width: 480px) {
+  .a {
+    width: 95%;
+  }
+  .b7 {
+    justify-content: center;
+  }
+  .f4 {
+    margin-left: 20px;
+  }
+  .f5 {
+    margin-left: 20px;
+  }
+  .a2 {
+    font-size: 10px;
+    width: 200px;
+    display: flex;
+    margin-top: 10px;
+  }
+  .h4 {
+    width: 300px;
+    text-align: center;
+    margin: 0;
+    padding-left: 120px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+  .a3 {
+    margin-top: 10px;
+    height: 10px;
+    margin-right: 10px;
+    width: 10px;
+  }
+  .a4 {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  .a6 {
+    width: 60px;
+    height: 30px;
+  }
+  .a5 {
+    width: 97%;
+    text-space: 1px;
+  }
+  .a9 {
+    height: 20px;
+    width: 100px;
+  }
+  .b7 {
+    margin-bottom: 10px;
+  }
+  .b2 {
+    height: 35px;
+    width: 120px;
+    font-size: 15px;
+  }
+  .b {
+    font-size: 15px;
+  }
+  .b3 {
+    padding-top: 50px;
+    margin-top: 150px;
+  }
+  .c6 {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 20px;
+  }
+  .h5 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .h6 {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  .ht {
+    font-size: 10px;
+  }
+  .h {
+    width: 480px;
+  }
+  .h1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .hd {
+    font-size: 10px;
+  }
+  .hq {
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+  }
+  .h2 {
+    margin-bottom: 50px;
+    margin-left: 15px;
+  }
+  .zs {
+    margin-bottom: 20px;
+  }
+  .g4 {
+    font-size: 15px;
+    width: 300px;
+  }
+  .f4 {
+    font-size: 20px;
+  }
+  .f5 {
+    font-size: 10px;
+  }
+  .f2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .ha {
+    width: 200px;
+    height: 10px;
+    margin-top: 10px;
+  }
+  .fsd {
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  .j9 {
+    font-size: 20px;
+  }
+  .k9 {
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  .j4 {
+    font-size: 20px;
+  }
+  .j5 {
+    font-size: 10px;
+  }
+  .j6 {
+    padding-bottom: 100px;
+  }
+  .j7 {
+    padding-top: 100px;
+  }
+  .b7 {
+    justify-content: space-around;
+  }
+  .f {
+    margin-top: 10px;
+  }
+  .faga {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+  }
+  .h1 {
+    margin-left: 100px;
+  }
+}
+@media (max-width: 850px) {
+  .a {
+    margin-bottom: 200px;
+  }
+  .f {
+    margin-top: 10px;
+  }
+  .hd {
+    margin-left: 100px;
+  }
+  .h6 {
+    margin: 20px;
+  }
+  .h1 {
+    margin-left: 20px;
+  }
+  .h4 {
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+  }
+  .b7 {
+    justify-content: space-around;
+  }
+  .faga {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=sayt.css.map */
